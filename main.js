@@ -1,5 +1,5 @@
 // just a notification in the beginning lol
-// alert("There is no saving option so any progress you make will be resetted once you reload the page or exit , so be careful !")
+alert("There is no saving option so any progress you make will be resetted once you reload the page or exit , so be careful !")
 
 // front for each accordion
 let accordions = document.querySelectorAll(".accordion");
