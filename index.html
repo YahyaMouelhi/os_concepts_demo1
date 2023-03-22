@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yahya Mouelhi">
+    <meta name="description" content="This is an educational website made by 4n7h4r4x , free and non profitable for educational and learning purposes only , hope you like it.">
+    <title>OS Concepts 1</title>
+    <link rel="shortcut icon" href="os.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="container">
+            <a href="/"><i class="bi bi-cpu"></i></a>
+            <div>
+                <a target="_blank" href="https://discord.gg/pXRyavnRbx">Discord</a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCoWMFRYbFM0Tj-v3NnpUnYA">Youtube</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- wssup -->
+    <div class="intro">
+        <div class="credits">
+            <div class="container">
+                <h1>Learn the basics of operating systems and how they works !</h1>
+                <p>A simple and easy to understand course which covers the basics of OS for anyone . </p>
+            </div>
+        </div>
+    </div>
+
+    <!--  no functionnality , still  -->
+    <div class="container">
+
+        <!-- 1 -->
+        <div class="accordion">
+            <div class="accordion-head">
+                <div>
+                    <p>01</p>
+                    <p>What is an operating system ?</p>
+                </div>
+                <p><i class="bi bi-list"></i></p>
+            </div>
+            <div class="accordion-body hidden">
+                <h3>An operating system (OS) is system software that manages computer hardware and software resources, and provides common services for computer programs.</h3>
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Operating_system">Read more</a> 
+                <hr>
+                <h4>Examples of Operating Systems :</h4>
+                <img src="https://www.softwaretestinghelp.com/wp-content/qa/uploads/2019/09/OPerating-Systems-list.png" alt="">
+                <ul class="ul_square">
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">Linux :</a>
+                        <p>Linux is a family of open-source Unix-like operating systems based on the Linux kernel,
+                            an operating system kernel first released on September 17, 1991, by Linus Torvalds.</p>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Microsoft_Windows" target="_blank">Windows :</a>
+                        <p>Windows is a group of several proprietary graphical operating system families developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. 
+                            For example, Windows NT for consumers, Windows Server for servers, and Windows IoT for embedded systems.</p>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/IOS" target="_blank">iOS :</a>
+                        <p>iOS is a mobile operating system developed by Apple Inc. exclusively for its hardware.
+                             It is the operating system that powers many of the company's 
+                            mobile devices, including the iPhone;</p>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Android_(operating_system)" target="_blank">Android :</a>
+                        <p>Android is a mobile operating system based on a modified version of the Linux kernel and other 
+                            open-source software, designed primarily for touchscreen mobile devices
+                            such as smartphones and tablets.</p>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/List_of_operating_systems" target="_blank">Other OS ...</a>
+                    </li>
+                </ul>
+                <hr>
+                <p class="answer">Answer the Questions !</p>
+                <ul class="questions">
+                    <li>
+                        <p>What does OS stands for ?</p>
+                        <input type="text" name="" id="" placeholder="********* ******"><button>Check Answer</button> 
+                    </li>
+                    <li>
+                        <p>Who released the first operating system kernel ?</p>
+                        <input type="text" name="" id="" placeholder="***** ********"><button>Check Answer</button> 
+                    </li>
+                    <li>
+                        <p>Which of these OS is based on a modified version of Linux ?</p>
+                        <input type="text" name="" id="" placeholder="*******"><button>Check Answer</button> 
+                    </li>
+                    <li>
+                        <p>What OS does the iPhone use ?</p>
+                        <input type="text" name="" id="" placeholder="***"><button>Check Answer</button> 
+                    </li>
+                    <li>
+                        <p>Which company did developed Windows ?</p>
+                        <input type="text" name="" id="" placeholder="*********"><button>Check Answer</button> 
+                    </li>
+                    <li>
+                        <p>What operating system did Linus Torvalds helped developing ?</p>
+                        <input type="text" name="" id="" placeholder="*****"><button>Check Answer</button>  
+                    </li>
+                    <li>
+                        <p>Is the OS a hardware that can be found in different devices ? (y/n)</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>  
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="accordion">
+            <div class="accordion-head">
+                <div>
+                    <p>02</p>
+                    <p>Hardwares and essential components</p>
+                </div>
+                <p><i class="bi bi-list"></i></p>
+            </div>
+            <div class="accordion-body hidden">
+                <h3>We mentionned earlier that the Operating System (OS) is system software that manages computer hardware , so what are these hardwares ?
+                We are gonna take cover and learn about some of the essential hardware , and we will talk about them more in the next parts of the course.</h3>
+                <hr>
+                <p>Different devices (Phones , Computers , Smart Watches etc..) are programmed to do a certain job , and they rquire hardwares that function together following 
+                    different algorithms and stages (We will talk deeply about them later) and each hardware have its own purpose and rules ...  </p>
+                <img src="hardwares.jpeg" alt="">
+                <h4>Examples of essential hardwares :</h4>
+                <ul>
+                    <li>
+                        <h4>RAM :</h4>
+                        <p>
+                            What Is RAM? RAM is a common computing acronym that stands for random-access memory. Sometimes it's 
+                            called PC memory or just memory. In essence, RAM is your computer or laptop's short-term memory. It's 
+                            where the data is stored that your computer processor needs to run your applications and open your files.</p>
+                        <img src="ram.png" alt="">
+                    </li>
+                    <li>
+                        <h4>CPU :</h4>
+                        <p>
+                            The Central Processing Unit (CPU) is the primary component of a computer that acts as its “control center.” 
+                            The CPU, also referred to as the “central” or “main” processor, is a complex set of electronic circuitry 
+                            that runs the machine's operating system and apps.</p>
+                        <img src="cpu.png" alt="">
+                    </li>
+                    <li>
+                        <h4>HDD :</h4>
+                        <p>A computer hard drive (or a hard disk or HDD) is one kind of technology that stores the operating system, applications, 
+                            and data files such a documents, pictures and music that your computer uses. The rest of the components in your computer work 
+                            together to show you the applications and files stored on your hard drive.</p>
+                        <img src="hdd.png" alt="">
+                    </li>
+                    <li>
+                        <h4>GPU :</h4>
+                        <p>
+                            The graphics processing unit (GPU) in your device helps handle graphics-related work like graphics, effects, and videos.
+                             Learn about the different types of GPUs and find the one that meets your needs.
+                             Integrated GPUs are built into your PC's motherboard, allowing laptops to be thin, lightweight, and power-efficient.</p>
+                        <img src="gpu.png" alt="">
+                    </li>
+                    <li>
+                        <h4>Mother Board :</h4>
+                        <p>The motherboard is the backbone that ties the computer's components together at one spot and allows them to talk to each other.
+                            Without it, none of the computer pieces, such as the CPU, GPU, or hard drive, could interact. Total motherboard functionality
+                            is necessary for a computer to work well.</p>
+                        <img src="motherboard.png" alt="">
+                    </li>
+                    <li>
+                        <p>There are more hardwares like keyboards , screen , mouses etc... But we only need RAM , CPU and HDD in this course , if you feel curious about the others , then i recommend you to go search and explore on your own !</p>
+                    </li>
+                </ul>
+                <hr>
+                <p class="answer">Answer the Questions !</p>
+                <ul class="questions">
+                    <li>
+                        <p>What does HDD stands for ?</p>
+                        <input type="text" name="" id="" placeholder="**** ****"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>Does RAM stands for random active memory ? (y/n)</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>What does RAM stands for ?</p>
+                        <input type="text" name="" id="" placeholder="****** ****** ******"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>What does the CPU stands for ?</p>
+                        <input type="text" name="" id="" placeholder="******* ********** ****"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>What hardware is mostly used for graphics ?</p>
+                        <input type="text" name="" id="" placeholder="******** ********** ****"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>What hardware is responsible for connecting them all ?</p>
+                        <input type="text" name="" id="" placeholder="****** *****"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>The Hard Disk is considered as the main memory ? (y/n)</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>Can we run a computer without a RAM ? (y/n)</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>CPU is considered as the mind of a computer ?(y/n)</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="accordion">
+            <div class="accordion-head">
+                <div>
+                    <p>03</p>
+                    <p>Program VS Process</p>
+                </div>
+                <p><i class="bi bi-list"></i></p>
+            </div>
+            <div class="accordion-body hidden">
+                <h2>First of all , let's define each one so we can know the difference between a Program and a Process</h2>
+                <h3>What is a program ?</h3>
+                <p>A program is an executable file which contains a certain set of instructions (code) written to complete a specific job on the device. It's considered as a passive entity. </p>
+                <h3>What is a process ?</h3>
+                <p>A process is a " running  program " that serves as the foundation for all computations. It's considered as an active entity.</p>
+                <img src="program_vs_process.png" alt="">
+                <hr>
+                <p class="answer">Answer the Questions !</p>
+                <ul class="questions">
+                    <li>
+                        <p>Which one is a dynamic object ?</p>
+                        <input type="text" name="" id="" placeholder="*******"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>Which one goes to the RAM ?</p>
+                        <input type="text" name="" id="" placeholder="*******"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>Which one is an executable file ?</p>
+                        <input type="text" name="" id="" placeholder="*******"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>The program is a set of instructions execution in machine code ? (y/n)</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>Does the process have unlimited life span ? (y/n)</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 4 -->
+        <div class="accordion">
+            <div class="accordion-head">
+                <div>
+                    <p>04</p>
+                    <p>States of Process</p>
+                </div>
+                <p><i class="bi bi-list"></i></p>
+            </div>
+            <div class="accordion-body hidden">
+                <h3>We mentioned before the difference between a Process and a Program and now we are gonna cover the states of a process when it's runninng </h3>
+                <hr>
+                <h4>The process have 7 states in total , and he minimum number of states is five. </h4>
+                <p>The names of the states are not standardized although the process may be in one of the following states during execution.</p>
+                <img src="os-process-state-diagram.png" alt="">
+                <hr>
+                <ol>
+                    <li>
+                        <h4>New State :</h4>
+                        <p>New process is being created in the Hard Disk (copy of the executed program) .</p>
+                    </li>
+                    <li>
+                        <h4>Ready State :</h4>
+                        <p>Process is moved (sent) to the RAM but still not performing (not runninng) .</p>
+                    </li>
+                    <li>
+                        <h4>Running State :</h4>
+                        <p>The process is executeed by the CPU and is running .</p>
+                    </li>
+                    <li>
+                        <h4>Waiting State (I/O) :</h4>
+                        <p>Process is waiting for a resource (or a user input) to finish it's job , Process is undergoing (block).</p>
+                    </li>
+                    <li>
+                        <h4>Terminated State :</h4>
+                        <p>Process finished executing (running) and is waiting to be removed from the main memory (RAM) .</p>
+                    </li>
+                    <li>
+                        <h4>Suspended Ready State :</h4>
+                        <p>The process is brought to its ready state when the main memory becomes accessible (from the hard disk) .</p>
+                    </li>
+                    <li>
+                        <h4>Suspended Wait State :</h4>
+                        <p>A process moves from wait state to suspend wait state if a process with higher priority has to be executed but the main memory is full. 
+                            Moving a process with lower priority from wait state to suspend wait state creates a room for higher priority process in the ready state.</p>
+                    </li>
+                </ol>
+                <hr>
+                <p class="answer">Answer the questions !</p>
+                <ul class="questions">
+                    <li>
+                        <p>How many states does the process have ?</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>What state id process when working in the CPU ? </p>
+                        <input type="text" name="" id="" placeholder="******* *****"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>In what state a copy of the program is created ?</p>
+                        <input type="text" name="" id="" placeholder="*** *****"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>In new state where does the copy of prgram (process) is located ?</p>
+                        <input type="text" name="" id="" placeholder="**** ****"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>In which state we find the process undergoing ?</p>
+                        <input type="text" name="" id="" placeholder="******* *****"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>In which state the process gets removed from the main memory (RAM)?</p>
+                        <input type="text" name="" id="" placeholder="********** *****"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>In what state the process is running in the CPU ?</p>
+                        <input type="text" name="" id="" placeholder="******* *****"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>In the suspended wait state , the process is sent back to the Hard Disk ? (y/n)</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 5 -->
+        <div class="accordion">
+            <div class="accordion-head">
+                <div>
+                    <p>05</p>
+                    <p>Multiprogramming , Multiprocessing , Multithreading and Multitasking</p>
+                </div>
+                <p><i class="bi bi-list"></i></p>
+            </div>
+            <div class="accordion-body hidden">
+                <h4>What's Multiprogramming ?</h4>
+                <p>Multiprogramming means interleaved execution of several tasks on the same computer system. One of the major 
+                    aims of multiprogramming is to manage the various resources of the entire system</p>
+                <h4>Degree of Multiprogramming ?</h4>
+                <p>In other words , it also means the maximum number of
+                    processes which can be present (stored) in the RAM and can be accomodated efficiently by a single processor system</p>
+                <img src="Multiprogramming.png" alt="">
+                <h4>What's Multiprocessing ?</h4>
+                <p>multiprocessing runs multiple processes simultaneously on multiple processors, unlike Multiprogramming.</p>
+                <img src="Multiprocessing.png" alt="">
+                <h4>What is Multithreading ?</h4>
+                <img src="Multithreading.png" alt="">
+                <h4>What is Multitasking ?</h4>
+                <img src="Multitasking.png" alt="">
+                <hr>
+                <p class="answer">Answer the questions !</p>
+                <ul class="questions">
+                    <li>
+                        <p>Which one keeps several processes in main memory at the same time and execute them one by one ?</p>
+                        <input type="text" name="" id="" placeholder="****************"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>In which one the process takes only a fair quantum of the CPU time ?</p>
+                        <input type="text" name="" id="" placeholder="************"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>Which one is similar to Multiprocessing ?</p>
+                        <input type="text" name="" id="" placeholder="**************"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>The degree of Multiprogramming refers to the maximum processes which can be present in CPU ? (y/n)</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>Do you understand the difference between each one ? (y/n)</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 6 -->
+        <div class="accordion">
+            <div class="accordion-head">
+                <div>
+                    <p>06</p>
+                    <p>Types of Operating Systems</p>
+                </div>
+                <p><i class="bi bi-list"></i></p>
+            </div>
+            <div class="accordion-body hidden">
+                <h3>We are only going to mention 3 types of OS in this lecture.</h3>
+                <hr>
+                <h4>Batch OS :</h4>
+                <p>We can only put one process in the RAM , which means we can only execute one by one process (we can execute multiple tasks if the jobs require the same resources) .</p>
+                <h4>Multiprogramming OS :</h4>
+                <p>We can have more than one process in the RAM</p>
+                <h4>Multiprocessing OS :</h4>
+                <P>It is parallel processing which means we have more than one cpu (hardware) .</P>
+                <hr>
+                <p class="answer">Answer the questions!</p>
+                <ul class="questions">
+                    <li>
+                        <p>In which OS the RAM can only hold one process ?</p>
+                        <input type="text" name="" id="" placeholder="***** **"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>Which type of OS is in use today ?</p>
+                        <input type="text" name="" id="" placeholder="*************** **"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>Which OS allows us to execute one by one process and store many process in RAM ?</p>
+                        <input type="text" name="" id="" placeholder="**************** **"><button>Check Answer</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 7 -->
+        <div class="accordion">
+            <div class="accordion-head">
+                <div>
+                    <p>07</p>
+                    <p>PCB , attributes of process and Context of process</p>
+                </div>
+                <p><i class="bi bi-list"></i></p>
+            </div>
+            <div class="accordion-body hidden">
+                <h3>What is PCB ?</h3>
+                <p>
+                    Process Control Block is a data structure that contains information of the process related to it.
+                     The process control block is also known as a task control block, entry of the process table, etc.
+                     It is very important for process management as the data structuring for processes is done in terms of the PCB.</p>
+                <p>Attributes of process :</p>
+                <img src="pcb.png" alt="">
+                <hr>
+                <h3>What is a context ?</h3>
+                <p>In computer science, a task context is the minimal set of data used by a task that must be saved
+                    to allow a task to be interrupted, and later continued from the same point.</p>
+                <p>The context of a process includes its address space, stack space, virtual address space, register set 
+                    image (e.g. Program Counter (PC), Stack Pointer (SP), Instruction Register (IR), Program Status Word 
+                    (PSW) and other general processor registers), updating profiling or accounting information, making a snapshot image ...</p>
+                <h4>Sounds like too much information ? Dont worry i just mentioned them and you can either ignore them or just at least know them .</h4>
+                <hr>
+                <h3>We will talk about Context Switching & Context Swapping ! </h3>
+                <h4>Context Switching :</h4>
+                <p>context switch is the process of storing the state of a process or thread, so that it can be
+                    restored and resume execution at a later point, and then restoring a different, previously saved, state. And it happens between <strong>RAM</strong> and <strong>CPU</strong> .</p>
+                <h4>Context Swapping :</h4>
+                <p>
+                    Context Switching involves storing the context or state of a process so that it can be reloaded when 
+                    required and execution can be resumed from the same point as 
+                    earlier. This is a feature of a multitasking operating system and allows a single CPU to be shared by multiple processes.And it happens between <strong>RAM</strong> and <strong>HDD</strong> .</p>
+                <img src="context_swapping.png" alt="">    
+                <hr>
+                <p class="answer">Answer the questions !</p>
+                <ul class="questions">
+                    <li>
+                        <p>What does PCB stands for ?</p>
+                        <input type="text" name="" id="" placeholder="******* ******* *****"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>In which attribute of process we know it's state ?</p>
+                        <input type="text" name="" id="" placeholder="******* *****"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>Which context is a bond between RAM and CPU ?</p>
+                        <input type="text" name="" id="" placeholder="******* *********"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>In which attribute of process the the content of all process-ceentric registers ?</p>
+                        <input type="text" name="" id="" placeholder="*********"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>Which context is considered a feature of a multitasking operating system ?</p>
+                        <input type="text" name="" id="" placeholder="******* ********"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>How many states does the process have ?</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>
+                    </li>
+                </ul>    
+            </div>
+        </div>
+        <!-- 8 -->
+        <div class="accordion">
+            <div class="accordion-head">
+                <div>
+                    <p>08</p>
+                    <p>Types of Scheduling</p>
+                </div>
+                <p><i class="bi bi-list"></i></p>
+            </div>
+            <div class="accordion-body hidden">
+                <h2>What is Long-Term, Short-Term, and Medium-Term Scheduler?</h2>
+                <hr>
+                <h3>Long Term Scheduler : </h3>
+                <p>Long-term scheduling is performed when a new process is created.
+                    This is a decision whether to add a new process to the set of processes 
+                    that are currently active.Happens between RAM and HDD.</p>
+                <h3>Short Term Scheduler : </h3>
+                <p>Short-term scheduling involves selecting one of the processes from the ready queue and scheduling them for execution. 
+                    This is done by the short-term scheduler. A scheduling algorithm is used to decide which process will be scheduled for 
+                    execution next by the short-term scheduler.Happens between RAM and CPU.</p>
+                <h3>Medium Term Scheduler : </h3>
+                <p>Medium-term scheduling is a part of the swapping function. This is a decision whether to add a process to those 
+                    that are at least partially in main memory and therefore available for execution.
+                    Short-term scheduling is the actual decision of which ready process to execute next.Also between RAM and HDD.</p>
+                <img src="schedulers.png" alt="">
+                <hr>
+                <p class="answer">Answer the questions !</p>
+                <ul class="questions">
+                    <li>
+                        <p>Which scheduler make the decision of which ready process to execute next?</p>
+                        <input type="text" name="" id="" placeholder="***** **** *********"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>Which scheduler is performed when a new process is created?</p>
+                        <input type="text" name="" id="" placeholder="**** **** *********"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>The long term scheduler is between RAM and CPU ? (y/n) </p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>Is the long term scheduler a part of the swapping function ? (y/n)</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check Answer</button>
+                    </li>
+                    <li>
+                        <p>What process is a part of the swapping function ?</p>
+                        <input type="text" name="" id="" placeholder="****** **** **********"><button>Check Answer</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 9 -->
+        <div class="accordion">
+            <div class="accordion-head">
+                <div>
+                    <p>09</p>
+                    <p>Various times of Process</p>
+                </div>
+                <p><i class="bi bi-list"></i></p>
+            </div>
+            <div class="accordion-body hidden">
+                <h2>In Operating System, various times related to process are :</h2>
+                <hr>
+                <ol>
+                    <li>
+                        <h4>Arrival time :</h4>
+                        <p>Its the time when the process have entered the RAM .</p>
+                    </li>
+                    <li>
+                        <h4>Waiting time :</h4>
+                        <p>Duration of the time spent by the CPU executing the process .</p>
+                    </li>
+                    <li>
+                        <h4>Response time :</h4>
+                        <p>Duration of time spent by the process in ready state (When it entered RAM for the first time only ) .</p>
+                    </li>
+                    <li>
+                        <h4>Burst time :</h4>
+                        <p>Also called execution time , its the duration </p>
+                    </li>
+                    <li>
+                        <h4>Completion time :</h4>
+                        <p>Point in time on which the process completed executing .</p>
+                    </li>
+                    <li>
+                        <h4>Turn Around Time :</h4>
+                        <p>The duration of time that the process to from start to end (from new state to terminated state) .</p>
+                    </li>
+                </ol>
+                <img src="" alt="">
+                <hr>
+                <p class="answer">Answer the questions !</p>
+                <ul class="questions">
+                    <li>
+                        <p>Do you promise that you will memorise them by heart ? i can't find any questions , they are easy to learn and if u dont learn them you are just stupid . (y/n)</p>
+                        <input type="text" name="" id="" placeholder="*"><button>Check answer</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 10 -->
+        <div class="accordion">
+            <div class="accordion-head">
+                <div>
+                    <p>10</p>
+                    <p>CPU Scheduling and Algorithms</p>
+                </div>
+                <p><i class="bi bi-list"></i></p>
+            </div>
+            <div class="accordion-body hidden">
+                <h2>We will cover 2 types of CPU scheduling algorithms in OS :</h2>
+                <h3>Pre-emptive VS Non pre-emptive !</h3>
+                <hr>
+                <img src="algos.png" alt="">
+            </div>
+        </div>
+
+        <!-- lol -->
+        <div class="author">
+            <p>This room was created by <a href="https://www.instagram.com/4n7h4r4x/">4n7h4r4x</a> in Wed Mar 22 01:18:22 AM CET 2023 
+            Hope you enjoyed my first ever room and learned something new !</p>
+        </div>
+
+    </div>
+    
+    <!-- End -->
+    <div class="end">
+        <div class="container">
+            <p>Join us now and become a hacker , life is boring without computers !</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

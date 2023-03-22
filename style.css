@@ -1,0 +1,285 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #eee ;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+img{
+    width: 50%;
+    mix-blend-mode: multiply;
+    margin: 12px auto;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #1a1d20;
+}
+
+.navbar .container{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar div a{
+    font-size: 1.4rem;
+    margin:0 20px ;
+}
+
+.navbar div a:hover{
+    color: rgb(165, 165, 165);
+}
+
+/* Accordion */
+.accordion{
+    margin: 16px auto;
+    box-shadow: 0 0 2px 1px black;
+}
+
+.accordion-head{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #23272a;
+    color: whitesmoke;
+    padding: 6px 12px;
+}
+
+.accordion-head div{
+    display: flex;
+}
+
+.accordion-head div p:first-child{
+    width: 48px ;
+}
+
+.accordion-body{
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+.accordion-body hr{
+    margin: 32px 0;
+}
+
+.accordion-body li a{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.accordion-body li p{
+    color: rgb(59, 59, 59);
+}
+
+.accordion a{
+    color: #3a3a3a;
+}
+
+.accordion a:hover{
+    text-decoration: underline;
+}
+
+/* Stuff */
+
+.hidden{
+    display: none;
+}
+
+.open{
+    color: rgb(203, 203, 203);
+}
+
+.answer{
+    color: rgb(0, 156, 55);
+    font-size: 1.5rem;
+    margin: 6px 0 40px;
+}
+
+.ul_square{
+    list-style-type: square;
+}
+
+.questions li{
+    font-size: 1.2rem;
+}
+
+.questions li p{
+    margin: 28px 0 6px 0 ;
+    width: 95%;
+}
+
+.questions li input{
+    width: 75%;
+    font-size: 1.4rem ;
+}
+
+.questions li button{
+    width: 20%;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.completed {
+    box-shadow: 0 0 3px 3px rgb(90, 151, 0);
+}
+
+.completed .accordion-head{
+    color: rgb(90, 151, 0); 
+}
+
+
+/* Intro div */
+.intro{
+    height: 340px;
+    background-image: url(bg.png);
+    position: relative;
+}
+
+.intro .credits{
+    position: absolute;
+    bottom: 0;
+    background-color: #23272a;
+    opacity: 0.85;
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* endings ... */
+
+.author{
+    padding: 38px;
+    border: 1px solid rgb(164, 164, 164);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: whitesmoke;
+}
+
+.author p {
+    width: 62%;
+    margin: 0 auto;
+}
+
+.author a{
+    color: rgb(133, 0, 93);
+}
+
+.end{
+    margin-top: 20px;
+    border-top: 1px solid #23272a;
+    background-color: #23272a;
+    color: rgb(201, 0, 70);
+    padding: 22px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (min-width:786px) and (max-width:1325px) {
+    .navbar div a{
+        font-size: 1rem;
+    }
+    .accordion-body li a{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .answer{
+        font-size: 1.2rem;
+    }
+    .questions li input{
+        font-size: 1rem;
+        width: 60%;
+    }
+    .questions li button{
+        font-size: 1rem;
+        width: 32%;
+    }
+    .author{
+        font-size: 1rem;
+    }
+    .end{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .navbar .container{
+        width: 96%;
+    }
+    .container{
+        width: 92%;
+    }
+    .accordion {
+        margin: 8px auto;
+    }
+    
+}
+
+@media screen and (max-width:786px) {
+    .navbar div a{
+        font-size: 0.7rem;
+    }
+    .accordion-body li a{
+        font-size: 1.1rem;
+    }
+    img{
+        width: 86%;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    .answer{
+        font-size: 1.5rem;
+    }
+    .questions li input{
+        font-size: 1rem;
+        width: 50%;
+    }
+    .questions li button{
+        font-size: 1rem;
+        width: 42%;
+    }
+    .author{
+        font-size: 0.7rem;
+    }
+    .end{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 1.1rem;
+    }
+    .navbar .container{
+        width: 96%;
+    }
+    .container{
+        width: 99%;
+    }
+    .intro{
+        height: 168px;
+    }
+    .accordion-body{
+        padding: 8px;
+    }
+    .accordion {
+        margin: 6px auto;
+    }
+}
